@@ -17,12 +17,34 @@ http://fonts.googleapis.com/css?family=Lato:300,400,700|Rokkitt:400,700
 
 #cc-infographic {
 	background-color: #A19DB2;
-	font: 300 'Lato', sans-serif;
+	color: #3B3A44;
+	font: 300 22px/1.2 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
 	width: 800px;
+}
+
+#cc-infographic hr {
+	
 }
 
 #cc-infographic h1,
 #cc-infographic h2 {
 	font: 'Rokkit', serif;
+	margin: 0;
+	padding: 0;
 }
 
+#cc-infographic h1 {
+	background-color: #462E83;
+	color: #fff;
+	font-size: 68px;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+#cc-infographic h2 {
+	
+}
