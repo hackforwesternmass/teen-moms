@@ -1,0 +1,28 @@
+/*
+
+purple: #462E83
+orange: #F3951F
+lt gray: #A19DB2
+dk gray: #3B3A44
+
+Font weights:
+Lato Light: 300
+Lato Regular: 400 (normal)
+Lato Bold: 700 (bold)
+Rokkit Regular: 400 (normal)
+Rokkit Bold: 700 (bold)
+http://fonts.googleapis.com/css?family=Lato:300,400,700|Rokkitt:400,700
+
+*/
+
+#cc-infographic {
+	background-color: #A19DB2;
+	font: 300 'Lato', sans-serif;
+	width: 800px;
+}
+
+#cc-infographic h1,
+#cc-infographic h2 {
+	font: 'Rokkit', serif;
+}
+

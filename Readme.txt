@@ -1,1 +1,3 @@
-This effort is addressing The Care Center's problem of distinguishing themselves to PRIVATE DONORS as a cutting edge organization doing locally based work to address national issues.
+The Care Center came to the Hack for Western Mass requesting an info graphic for use on their website and in print for their fundraising and PR efforts. This project answers The Care Center's desire to distinguish themselves to PRIVATE DONORS as a cutting edge organization doing locally based work to address national issues.
+
+Ultimately, the info graphic files will be added to their WordPress stie. Files from their site are included in this repository for presentation and demonstration.
