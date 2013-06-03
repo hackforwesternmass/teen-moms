@@ -2,8 +2,9 @@
 
 purple: #462E83
 orange: #F3951F
-lt gray: #A19DB2
+lt gray: #C4C3D1
 dk gray: #3B3A44
+black: #231F20
 
 Font weights:
 Lato Light: 300
@@ -11,40 +12,63 @@ Lato Regular: 400 (normal)
 Lato Bold: 700 (bold)
 Rokkit Regular: 400 (normal)
 Rokkit Bold: 700 (bold)
-http://fonts.googleapis.com/css?family=Lato:300,400,700|Rokkitt:400,700
+http://fonts.googleapis.com/css?family=Lato:100,300,400,700|Rokkitt:400,700
 
 */
 
-#cc-infographic {
-	background-color: #A19DB2;
-	color: #3B3A44;
-	font: 300 22px/1.2 'Lato', sans-serif;
-	margin: 0;
-	padding: 0;
+/* Code to assist demo and local development */
+@import 'fonts/fonts.css';
+
+.slug-home #content {
 	width: 800px;
 }
+#cc-infographic .demo {
+	display: none;
+}
 
-#cc-infographic hr {
-	
+
+/* Reset for our section */
+#cc-infographic,
+#cc-infographic h1,
+#cc-infographic h2,
+#cc-infographic p,
+#cc-infographic ul,
+#cc-infographic li,
+#cc-infographic blockquote {
+	color: #231F20;
+	font: normal normal 300 22px/1.2 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: auto;
+	height: auto;
+}
+
+
+
+#cc-infographic {
+	background-color: #C4C3D1;
+	width: 797px;
 }
 
 #cc-infographic h1,
 #cc-infographic h2 {
-	font: 'Rokkit', serif;
+	font-family: 'Rokkitt', serif;
+	font-weight: normal;
+	line-height: 1;
 	margin: 0;
 	padding: 0;
+	width: auto;
 }
 
 #cc-infographic h1 {
-	background-color: #462E83;
+	background-color: #3B3A44;
 	color: #fff;
 	font-size: 68px;
-	margin: 0;
-	padding: 0;
 	text-align: justify;
 	text-transform: uppercase;
 }
 
 #cc-infographic h2 {
-	
+	font-size: 50px;
 }
